@@ -5,7 +5,7 @@ public class Estudiante {
 	private String nombre;
 	private String apellido;
 	private float peso;
-	private char genero;
+	
 	
 	//constructor por defecto
 	/*comentario
@@ -50,14 +50,5 @@ public class Estudiante {
 	public void setPeso(float peso) {
 		this.peso = peso;
 	}
-
-	public char getGenero() {
-		return genero;
-	}
-
-	public void setGenero(char genero) {
-		this.genero = genero;
-	}
-	
 	
 }
